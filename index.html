@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#211735">
+<title>إلى إلاف، التي تشبه اسمها ✨</title>
+<style>
+:root{--night:#171326;--plum:#302044;--rose:#f2b9c8;--gold:#f3d99b;--cream:#fff8f1}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--cream);font-family:Tahoma,Arial,sans-serif;background:radial-gradient(ellipse at top,#4a315d 0,#241a37 48%,#13111f 100%);overflow-x:hidden}
+#sky,.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+#sky{z-index:0}.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff4d9;animation:shine 2s infinite alternate}
+@keyframes shine{to{opacity:.25;transform:scale(1.8)}}
+.petals{z-index:3}
+.petal{position:absolute;top:-30px;width:10px;height:16px;border-radius:100% 0 100% 0;background:linear-gradient(135deg,#f7d9df,#d98aa9);opacity:.8;animation:drift linear forwards}
+@keyframes drift{to{transform:translate3d(70px,110vh,0) rotate(520deg);opacity:.1}}
+main{position:relative;z-index:1;min-height:100vh;display:grid;place-items:center;padding:28px 16px}
+.card{width:min(650px,100%);padding:clamp(25px,6vw,48px);text-align:center;border:1px solid #f3d99b55;border-radius:30px;background:linear-gradient(145deg,#ffffff12,#ffffff05);box-shadow:0 25px 90px #0005;backdrop-filter:blur(9px);animation:appear 1s ease both}
+@keyframes appear{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.eyebrow{color:var(--gold);font-size:.88rem;letter-spacing:1.5px}
+h1{font-size:clamp(2.4rem,9vw,4.7rem);margin:14px 0 6px;line-height:1.3;color:#ffe9ee;text-shadow:0 0 30px #e6a9c755}
+.subtitle{font-size:1.05rem;color:#eadce9;line-height:2;margin:0 auto 22px}
+.ornament{color:var(--gold);font-size:1.3rem;margin:16px 0}
+button{font:inherit;font-weight:bold;border:1px solid #fff2d8;border-radius:999px;padding:13px 25px;background:linear-gradient(135deg,#f5dba1,#e9a9c1);color:#39233d;cursor:pointer;box-shadow:0 8px 28px #0003;transition:.2s}
+button:hover{transform:translateY(-2px)}
+.hidden{display:none!important}
+.seal{width:104px;height:104px;margin:25px auto 15px;border:1px solid #f3d99b99;border-radius:50%;display:grid;place-items:center;font-size:3.3rem;color:#f7d9df;box-shadow:0 0 0 8px #f3d99b10,0 0 45px #e5a9c522;animation:pulse 2s infinite}
+@keyframes pulse{50%{transform:scale(1.05);box-shadow:0 0 0 13px #f3d99b08,0 0 55px #e5a9c544}}
+h2{font-size:clamp(1.55rem,5vw,2.1rem);color:var(--gold);margin:10px 0 18px}
+.poem{font-size:1.08rem;line-height:2.2;color:#fff1f1}
+.poem strong{color:#f5c7d5}
+.quote{margin:24px 0 8px;padding:18px 16px;border-right:2px solid var(--gold);background:#ffffff08;border-radius:12px;color:#f7e8d5;line-height:2;font-size:1.02rem}
+.signature{margin-top:26px;color:#cdbad9;font-size:.85rem}
+.small{font-size:.82rem;color:#c9b8d2;margin-top:18px}
+@media(max-width:420px){.card{border-radius:23px}.poem{font-size:1rem}}
+</style>
+</head>
+<body>
+<div id="sky"></div><div class="petals" id="petals"></div>
+<main>
+<section class="card" id="cover">
+<div class="eyebrow">إلى صاحبة الاسم الذي يشبه الأُنس ✦</div>
+<div class="ornament">✧ ❋ ✧</div>
+<h1>إلاف</h1>
+<p class="subtitle">بعض الأسماء لا تُنادى فحسب…<br>بل تترك في القلب أثرًا صغيرًا من الطمأنينة.</p>
+<button id="open">افتحي رسالتكِ يا إلاف 💌</button>
+<div class="small">رسالة صُنعت لكِ وحدكِ</div>
+</section>
+<section class="card hidden" id="letter">
+<div class="eyebrow">حكاية اسمٍ وروح ✦</div>
+<div class="seal">✿</div>
+<h2>إلى إلاف…</h2>
+<div class="poem">
+اسمكِ يحمل معنى <strong>الأُلفة والانسجام</strong>؛<br>
+كأنّه خُلِق ليذكّر العالم أن بعض الأرواح<br>
+لا تحتاج إلى ضجيجٍ كي تُشعَر…<br>
+يكفي حضورها، فتغدو المسافة ألين،<br>
+ويصير الحديث أكثر دفئًا، والصمت أقلّ وحدة. 
+</div>
+<div class="quote">
+ولعلّ فيكِ من اسمكِ نصيبًا؛<br>
+روحٌ لها طريقتها الخاصة في ترك الأثر،<br>
+وتفاصيل لا يعرف قيمتها إلا من اقترب بصدق.<br>
+ليس الجمال أن تكوني شبيهة بالجميع،<br>
+بل أن تبقي <strong>إلاف</strong>… كما أنتِ، بلا نسخةٍ ثانية.
+</div>
+<div class="poem">
+أتمنى أن تحمل لكِ الأيام أُنسًا يشبه ما يوحي به اسمكِ،<br>
+وأن تجدي في الطريق قلوبًا تفهمكِ دون أن تُثقلكِ بالتفسير،<br>
+وأحلامًا تكبر معكِ، وفرحًا يأتيكِ على مهلٍ ويستقرّ طويلًا. ✨
+</div>
+<div class="ornament">✧ ♡ ✧</div>
+<h2>كوني كما أنتِ… وهذا يكفي.</h2>
+<p class="subtitle">لأن بعض الأشخاص لا يمرّون في الحكاية مرورًا عابرًا؛<br>إنهم يضيفون إليها معنى.</p>
+<button id="more">أضيفي قليلًا من السحر ✨</button>
+<div class="signature">بمحبة، ومن قلبٍ يتمنى لكِ الخير دائمًا 🤍</div>
+</section>
+</main>
+<script>
+const sky=document.getElementById('sky');
+for(let i=0;i<90;i++){const s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.opacity=(.25+Math.random()*.75);s.style.animationDelay=Math.random()*3+'s';sky.appendChild(s)}
+const petals=document.getElementById('petals');
+function sprinkle(n=35){for(let i=0;i<n;i++){const p=document.createElement('i');p.className='petal';p.style.left=Math.random()*100+'%';p.style.animationDuration=(5+Math.random()*7)+'s';p.style.animationDelay=Math.random()*2+'s';p.style.transform='rotate('+Math.random()*360+'deg)';petals.appendChild(p);setTimeout(()=>p.remove(),15000)}}
+document.getElementById('open').addEventListener('click',()=>{document.getElementById('cover').classList.add('hidden');document.getElementById('letter').classList.remove('hidden');sprinkle(55);});
+document.getElementById('more').addEventListener('click',()=>sprinkle(65));
+</script>
+</body>
+</html>
